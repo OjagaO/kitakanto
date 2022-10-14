@@ -399,7 +399,7 @@ header {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
-    /* background-position: center; */
+    background-position: center top;
 }
 
 .mn-top-message {
@@ -539,7 +539,7 @@ header {
     width: calc(80% - 24px);
     max-width: 440px;
     margin: 0 auto;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     line-height: 1.6rem;
     border: #000 solid 1px;
     border-top: none;
@@ -596,7 +596,7 @@ header {
 }
 
 .ff-item {
-    widows: 100vw;
+    width: 100%;
 }
 
 .ff-item-title {
@@ -625,15 +625,17 @@ header {
 }
 
 .ff-item-sentence {
-    width: calc(80% - 24px);
+    /* width: calc(80% - 24px); */
+    width: 80%;
     max-width: 416px;
     margin: 0 auto;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     line-height: 1.6rem;
     border: #000 solid 1px;
     border-top: none;
     padding: 12px;
     font-size: 0.8rem;
+    box-sizing: border-box;
 }
 
 .sixth-section {
@@ -857,6 +859,10 @@ header {
     max-width: 1000px;
     width: 75%;
     margin: 0 auto;
+}
+
+.qs-title:hover {
+    cursor: pointer;
 }
 
 .qs-title p {
