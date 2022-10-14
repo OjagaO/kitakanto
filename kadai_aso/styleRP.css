@@ -1,0 +1,434 @@
+@media screen and (min-width : 520px) {
+    
+    .sd-item p {
+        font-size: 1rem;
+    }
+
+    .mn-top-message h3 {
+        font-size: 1.6rem;
+    }
+
+    .sd-title h4 {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width : 960px) {
+
+    .line {
+        position: fixed;
+        top: 50%;
+        height: 1px;
+        width: 0;
+        background-color: white;
+        z-index: 31;
+    }
+
+    #line-up {
+        position: fixed;
+        width: 100%;
+        height: calc(50% + 1px);
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 30;
+    }
+
+    #line-down {
+        position: fixed;
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        z-index: 30;
+    }
+
+    #btn button{
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size:1.65rem;
+        z-index: 3;
+        /* color: #000; */
+        transform: rotate(90deg);
+        border-radius: 50%;
+    }
+
+    /* .black {
+        width: 100vw;
+        height:700vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 100;
+    }
+
+    .black img {
+        font-size: 10rem;
+        height: 150px;
+        letter-spacing: 0.2em;
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50% , -50%);
+        color: white;
+    } */
+    
+    main {
+        background-color: rgb(239, 239, 239);
+    }
+
+    header {
+        position: absolute;
+    }
+
+    .hd-lower {
+        display: none;
+    }
+
+    .hd-title {
+        height: auto;
+        width: auto;
+        padding: 0;
+        background: rgb(255, 255, 255);
+    }
+    .hd-title h1 {
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        margin-left: -1px;
+        padding: 0 50px 16px 24px;
+        background: rgb(255, 255, 255);
+        letter-spacing: 0.5rem;
+    }
+
+    .hd-title h3 {
+        padding: 24px 24px 0px 24px;
+        background: rgb(255, 255, 255);
+        letter-spacing: 0.15rem;
+    }
+
+    .hd-menu {
+        width: 50px;
+        padding: 0;
+    }
+
+    .hd-menu p {
+        display: none;
+    }
+
+    .hd-lower-rp {
+        display: block;
+        margin-top: 45px;
+        background-color: #3c425d;
+        width: 271.2px;
+        height: auto;
+        color: white;
+    }
+
+    .hd-tele {
+        padding: 24px 24px 0px 24px;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    .hd-time {
+        font-size: 0.7rem;
+        padding: 0 50px 16px 24px;
+        line-height: 2.5em;
+        text-align: center;
+    }
+
+
+    .hd-scroll {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #3c425d;
+        display: none;
+        visibility: visible;
+    }
+
+    .pon {
+        display: block;
+        /* 200px scroll */
+    }
+
+    .hd-scroll-area {
+        display: flex;
+        align-items: center;
+    }
+
+    .hd-scroll-list {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .hd-scroll-list li a {
+        color: white;
+        padding: 4px 24px;
+        transition: .3s;
+    }
+
+    .hd-scroll-list li a:hover {
+        color: #939393;
+        border-bottom: #ffffff 1px solid;
+    }
+
+    .hd-scroll-list li {
+        border-right: 1px solid white;
+    }
+
+    .hd-scroll-list :last-child {
+        border: none;
+    }
+
+    .hd-scroll-tele {
+        width: 25%;
+        padding-right: 40px;
+        color: white;
+        border: #939393;
+    }
+
+    
+
+    .mn-top {
+        padding-top: 0;
+    }
+
+    .mn-top-img {
+        height: 80vh;
+    }
+
+    .mn-top-message {
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: right;
+        /* padding: 74px 50px 20px; */
+    }
+
+    .mn-top-message h3 {
+        padding-right: 42px;
+    }
+
+    .mn-top-message p {
+        padding-right: 64px;
+        margin-bottom: 72px;
+    }
+
+    .mn-top-icon {
+        text-align: right;
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgba(245, 222, 179, 0);
+        border: none;
+
+        margin-bottom: 48px;
+    }
+
+    .mn-top-icon img {
+        background-color: rgba(45, 52, 255, 0.8);
+        position: absolute;
+        right: 0;
+        padding: 16px 72px;
+        height: 48px;
+        border: 1px solid rgb(88, 88, 88);
+        margin-right: 42px;
+
+        margin-bottom: 72px;
+    }
+
+    .second-section {
+        max-width: 1040px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: white;
+        position: relative;
+        top: -64px;
+        left: 0;
+    }
+
+    .sd-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 48px 11px;
+        font-family: serif;
+        font-size: 1.4rem;
+        letter-spacing: 0.1em;
+    }
+    
+    .sd-title img {
+        width: 48px;
+    }
+
+    .sd-item-box {
+        width: calc(100% - 32px);
+        margin: 0 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .sd-item {
+        padding: 40px 6%;
+        margin-top: 24px;
+        flex-basis: 18%;
+        background-color: #3c425d;
+        text-align: center;
+        border: 4px double #ffffff;
+        color: #fff;
+        display: none;
+    }
+
+    .td-flex-rp {
+        max-width: 1140px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .td-item-title h3 {
+        border-bottom: 3px double black;
+        width: 70%;
+        padding: 16px;
+        margin: 0 auto;
+    }
+
+    .fourth-section {
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .fth-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .fth-item {
+        width: 23%;
+        justify-content: space-evenly;
+    }
+
+    .ff-item-title h3 {
+        letter-spacing: 0.3rem;
+    }
+
+    .fth-item-sentence {
+        display: none;
+    }
+
+    .ff-flex-rp {
+        display: flex;
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sx-inner {
+        max-width: 1140px;
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+
+    }
+
+    .sx-sentence {
+        width: 60%;
+    }
+
+    .seventh-section {
+        background-color: #ffffff !important;
+        padding-bottom: 40px;
+    }
+
+    .svth-title {
+        background-color: #ffffff;
+        margin: 0;
+        padding: 40px 0 40px;
+    }
+
+    .svth-voice {
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: right;
+    }
+
+    .svth-voice img {
+        width: 95%;
+    }
+
+    .flow {
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .flow dl {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .access-section {
+        background-image: url(./images/flower1gray.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 48px;
+    }
+
+    .access-title h3 {
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+
+    .access-flex-rp {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 48px;
+    }
+
+    .google-map {
+        width: 48%;
+        height: 200%;
+    }
+
+    .map {
+        width: 100%;
+        height: 560px;
+        /* margin-top: 56px; */
+    }
+
+    .as-info {
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.627);
+        border: #939393 3px solid;
+        color: white;
+    }
+
+    .as-info dl {
+        padding-top: 8px;
+        padding-bottom: 12px;
+        border-bottom: #fff 1px solid;
+    }
+}
