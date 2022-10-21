@@ -175,7 +175,7 @@ header {
     top: 0;
     left: 0;
     /* width: calc(100vw - 20px); */
-    width: 100vw;
+    width: 100%;
     z-index: 1;
 }
 
